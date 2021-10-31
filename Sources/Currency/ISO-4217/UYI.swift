@@ -3,6 +3,6 @@
 extension Currency {
   /// Uruguay Peso en Unidades Indexadas (UI) (UYI)
   public static var `uyi`: Self {
-    .init(code: "UYI")
+    .init(code: "UYI", minor: 0)
   }
 }

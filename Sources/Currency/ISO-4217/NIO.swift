@@ -3,6 +3,6 @@
 extension Currency {
   /// Cordoba Oro (NIO)
   public static var `nio`: Self {
-    .init(code: "NIO")
+    .init(code: "NIO", minor: 2)
   }
 }

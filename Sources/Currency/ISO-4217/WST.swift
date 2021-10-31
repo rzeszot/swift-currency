@@ -3,6 +3,6 @@
 extension Currency {
   /// Tala (WST)
   public static var `wst`: Self {
-    .init(code: "WST")
+    .init(code: "WST", minor: 2)
   }
 }

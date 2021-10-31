@@ -3,6 +3,6 @@
 extension Currency {
   /// Gourde (HTG)
   public static var `htg`: Self {
-    .init(code: "HTG")
+    .init(code: "HTG", minor: 2)
   }
 }

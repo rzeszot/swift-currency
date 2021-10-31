@@ -3,6 +3,6 @@
 extension Currency {
   /// Armenian Dram (AMD)
   public static var `amd`: Self {
-    .init(code: "AMD")
+    .init(code: "AMD", minor: 2)
   }
 }

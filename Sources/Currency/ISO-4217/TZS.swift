@@ -3,6 +3,6 @@
 extension Currency {
   /// Tanzanian Shilling (TZS)
   public static var `tzs`: Self {
-    .init(code: "TZS")
+    .init(code: "TZS", minor: 2)
   }
 }

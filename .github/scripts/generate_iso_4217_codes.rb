@@ -65,7 +65,7 @@ currencies.each do |currency|
 extension Currency {
   /// #{currency.name} (#{currency.alphabetic_code})
   public static var \`#{currency.alphabetic_code.downcase}\`: Self {
-    .init(code: "#{currency.alphabetic_code}")
+    .init(code: "#{currency.alphabetic_code}", minor: #{currency.minor_unit})
   }
 }
 EOS

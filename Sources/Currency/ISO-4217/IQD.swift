@@ -3,6 +3,6 @@
 extension Currency {
   /// Iraqi Dinar (IQD)
   public static var `iqd`: Self {
-    .init(code: "IQD")
+    .init(code: "IQD", minor: 3)
   }
 }

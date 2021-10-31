@@ -3,6 +3,6 @@
 extension Currency {
   /// Libyan Dinar (LYD)
   public static var `lyd`: Self {
-    .init(code: "LYD")
+    .init(code: "LYD", minor: 3)
   }
 }

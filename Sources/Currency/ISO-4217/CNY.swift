@@ -3,6 +3,6 @@
 extension Currency {
   /// Yuan Renminbi (CNY)
   public static var `cny`: Self {
-    .init(code: "CNY")
+    .init(code: "CNY", minor: 2)
   }
 }

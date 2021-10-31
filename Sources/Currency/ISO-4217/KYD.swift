@@ -3,6 +3,6 @@
 extension Currency {
   /// Cayman Islands Dollar (KYD)
   public static var `kyd`: Self {
-    .init(code: "KYD")
+    .init(code: "KYD", minor: 2)
   }
 }

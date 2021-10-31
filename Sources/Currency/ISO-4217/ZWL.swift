@@ -3,6 +3,6 @@
 extension Currency {
   /// Zimbabwe Dollar (ZWL)
   public static var `zwl`: Self {
-    .init(code: "ZWL")
+    .init(code: "ZWL", minor: 2)
   }
 }

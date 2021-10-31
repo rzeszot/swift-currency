@@ -3,6 +3,6 @@
 extension Currency {
   /// Aruban Florin (AWG)
   public static var `awg`: Self {
-    .init(code: "AWG")
+    .init(code: "AWG", minor: 2)
   }
 }

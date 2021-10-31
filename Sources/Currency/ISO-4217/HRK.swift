@@ -3,6 +3,6 @@
 extension Currency {
   /// Kuna (HRK)
   public static var `hrk`: Self {
-    .init(code: "HRK")
+    .init(code: "HRK", minor: 2)
   }
 }

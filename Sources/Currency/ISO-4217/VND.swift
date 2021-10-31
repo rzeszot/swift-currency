@@ -3,6 +3,6 @@
 extension Currency {
   /// Dong (VND)
   public static var `vnd`: Self {
-    .init(code: "VND")
+    .init(code: "VND", minor: 0)
   }
 }

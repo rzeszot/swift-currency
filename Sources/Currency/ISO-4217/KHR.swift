@@ -3,6 +3,6 @@
 extension Currency {
   /// Riel (KHR)
   public static var `khr`: Self {
-    .init(code: "KHR")
+    .init(code: "KHR", minor: 2)
   }
 }

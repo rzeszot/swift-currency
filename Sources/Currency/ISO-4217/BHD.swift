@@ -3,6 +3,6 @@
 extension Currency {
   /// Bahraini Dinar (BHD)
   public static var `bhd`: Self {
-    .init(code: "BHD")
+    .init(code: "BHD", minor: 3)
   }
 }

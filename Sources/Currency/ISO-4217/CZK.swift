@@ -3,6 +3,6 @@
 extension Currency {
   /// Czech Koruna (CZK)
   public static var `czk`: Self {
-    .init(code: "CZK")
+    .init(code: "CZK", minor: 2)
   }
 }

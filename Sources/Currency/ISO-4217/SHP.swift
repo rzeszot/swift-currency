@@ -3,6 +3,6 @@
 extension Currency {
   /// Saint Helena Pound (SHP)
   public static var `shp`: Self {
-    .init(code: "SHP")
+    .init(code: "SHP", minor: 2)
   }
 }

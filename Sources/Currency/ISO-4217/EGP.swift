@@ -3,6 +3,6 @@
 extension Currency {
   /// Egyptian Pound (EGP)
   public static var `egp`: Self {
-    .init(code: "EGP")
+    .init(code: "EGP", minor: 2)
   }
 }

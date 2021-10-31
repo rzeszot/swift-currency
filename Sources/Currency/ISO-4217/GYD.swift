@@ -3,6 +3,6 @@
 extension Currency {
   /// Guyana Dollar (GYD)
   public static var `gyd`: Self {
-    .init(code: "GYD")
+    .init(code: "GYD", minor: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Balboa (PAB)
   public static var `pab`: Self {
-    .init(code: "PAB")
+    .init(code: "PAB", minor: 2)
   }
 }

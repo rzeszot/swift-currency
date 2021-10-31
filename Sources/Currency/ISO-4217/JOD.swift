@@ -3,6 +3,6 @@
 extension Currency {
   /// Jordanian Dinar (JOD)
   public static var `jod`: Self {
-    .init(code: "JOD")
+    .init(code: "JOD", minor: 3)
   }
 }

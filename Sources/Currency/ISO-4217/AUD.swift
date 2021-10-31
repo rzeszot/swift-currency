@@ -3,6 +3,6 @@
 extension Currency {
   /// Australian Dollar (AUD)
   public static var `aud`: Self {
-    .init(code: "AUD")
+    .init(code: "AUD", minor: 2)
   }
 }

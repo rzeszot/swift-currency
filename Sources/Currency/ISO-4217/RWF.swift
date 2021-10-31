@@ -3,6 +3,6 @@
 extension Currency {
   /// Rwanda Franc (RWF)
   public static var `rwf`: Self {
-    .init(code: "RWF")
+    .init(code: "RWF", minor: 0)
   }
 }

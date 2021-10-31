@@ -3,6 +3,6 @@
 extension Currency {
   /// Pa’anga (TOP)
   public static var `top`: Self {
-    .init(code: "TOP")
+    .init(code: "TOP", minor: 2)
   }
 }

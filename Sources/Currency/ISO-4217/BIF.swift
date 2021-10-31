@@ -3,6 +3,6 @@
 extension Currency {
   /// Burundi Franc (BIF)
   public static var `bif`: Self {
-    .init(code: "BIF")
+    .init(code: "BIF", minor: 0)
   }
 }

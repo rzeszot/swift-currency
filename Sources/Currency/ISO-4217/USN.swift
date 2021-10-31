@@ -3,6 +3,6 @@
 extension Currency {
   /// US Dollar (Next day) (USN)
   public static var `usn`: Self {
-    .init(code: "USN")
+    .init(code: "USN", minor: 2)
   }
 }

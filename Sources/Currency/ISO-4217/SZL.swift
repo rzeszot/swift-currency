@@ -3,6 +3,6 @@
 extension Currency {
   /// Lilangeni (SZL)
   public static var `szl`: Self {
-    .init(code: "SZL")
+    .init(code: "SZL", minor: 2)
   }
 }

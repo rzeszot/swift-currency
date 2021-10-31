@@ -3,6 +3,6 @@
 extension Currency {
   /// Brunei Dollar (BND)
   public static var `bnd`: Self {
-    .init(code: "BND")
+    .init(code: "BND", minor: 2)
   }
 }

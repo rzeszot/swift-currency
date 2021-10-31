@@ -3,6 +3,6 @@
 extension Currency {
   /// Denar (MKD)
   public static var `mkd`: Self {
-    .init(code: "MKD")
+    .init(code: "MKD", minor: 2)
   }
 }

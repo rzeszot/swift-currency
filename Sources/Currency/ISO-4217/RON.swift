@@ -3,6 +3,6 @@
 extension Currency {
   /// Romanian Leu (RON)
   public static var `ron`: Self {
-    .init(code: "RON")
+    .init(code: "RON", minor: 2)
   }
 }

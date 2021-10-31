@@ -3,6 +3,6 @@
 extension Currency {
   /// El Salvador Colon (SVC)
   public static var `svc`: Self {
-    .init(code: "SVC")
+    .init(code: "SVC", minor: 2)
   }
 }

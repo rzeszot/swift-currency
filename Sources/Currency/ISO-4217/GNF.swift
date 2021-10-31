@@ -3,6 +3,6 @@
 extension Currency {
   /// Guinean Franc (GNF)
   public static var `gnf`: Self {
-    .init(code: "GNF")
+    .init(code: "GNF", minor: 0)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Malaysian Ringgit (MYR)
   public static var `myr`: Self {
-    .init(code: "MYR")
+    .init(code: "MYR", minor: 2)
   }
 }

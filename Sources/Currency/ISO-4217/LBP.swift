@@ -3,6 +3,6 @@
 extension Currency {
   /// Lebanese Pound (LBP)
   public static var `lbp`: Self {
-    .init(code: "LBP")
+    .init(code: "LBP", minor: 2)
   }
 }

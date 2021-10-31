@@ -3,6 +3,6 @@
 extension Currency {
   /// Netherlands Antillean Guilder (ANG)
   public static var `ang`: Self {
-    .init(code: "ANG")
+    .init(code: "ANG", minor: 2)
   }
 }

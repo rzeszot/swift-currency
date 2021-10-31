@@ -3,6 +3,6 @@
 extension Currency {
   /// Cabo Verde Escudo (CVE)
   public static var `cve`: Self {
-    .init(code: "CVE")
+    .init(code: "CVE", minor: 2)
   }
 }

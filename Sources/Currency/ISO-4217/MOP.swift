@@ -3,6 +3,6 @@
 extension Currency {
   /// Pataca (MOP)
   public static var `mop`: Self {
-    .init(code: "MOP")
+    .init(code: "MOP", minor: 2)
   }
 }

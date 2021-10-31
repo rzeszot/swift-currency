@@ -3,6 +3,6 @@
 extension Currency {
   /// Euro (EUR)
   public static var `eur`: Self {
-    .init(code: "EUR")
+    .init(code: "EUR", minor: 2)
   }
 }

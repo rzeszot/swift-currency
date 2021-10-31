@@ -3,6 +3,6 @@
 extension Currency {
   /// Dominican Peso (DOP)
   public static var `dop`: Self {
-    .init(code: "DOP")
+    .init(code: "DOP", minor: 2)
   }
 }

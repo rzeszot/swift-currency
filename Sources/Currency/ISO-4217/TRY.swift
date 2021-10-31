@@ -3,6 +3,6 @@
 extension Currency {
   /// Turkish Lira (TRY)
   public static var `try`: Self {
-    .init(code: "TRY")
+    .init(code: "TRY", minor: 2)
   }
 }

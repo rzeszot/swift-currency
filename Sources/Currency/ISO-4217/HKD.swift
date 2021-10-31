@@ -3,6 +3,6 @@
 extension Currency {
   /// Hong Kong Dollar (HKD)
   public static var `hkd`: Self {
-    .init(code: "HKD")
+    .init(code: "HKD", minor: 2)
   }
 }

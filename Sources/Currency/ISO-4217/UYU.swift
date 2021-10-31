@@ -3,6 +3,6 @@
 extension Currency {
   /// Peso Uruguayo (UYU)
   public static var `uyu`: Self {
-    .init(code: "UYU")
+    .init(code: "UYU", minor: 2)
   }
 }

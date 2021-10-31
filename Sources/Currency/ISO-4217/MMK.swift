@@ -3,6 +3,6 @@
 extension Currency {
   /// Kyat (MMK)
   public static var `mmk`: Self {
-    .init(code: "MMK")
+    .init(code: "MMK", minor: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Iceland Krona (ISK)
   public static var `isk`: Self {
-    .init(code: "ISK")
+    .init(code: "ISK", minor: 0)
   }
 }

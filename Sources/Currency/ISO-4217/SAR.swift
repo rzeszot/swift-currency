@@ -3,6 +3,6 @@
 extension Currency {
   /// Saudi Riyal (SAR)
   public static var `sar`: Self {
-    .init(code: "SAR")
+    .init(code: "SAR", minor: 2)
   }
 }

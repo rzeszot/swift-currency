@@ -3,6 +3,6 @@
 extension Currency {
   /// Serbian Dinar (RSD)
   public static var `rsd`: Self {
-    .init(code: "RSD")
+    .init(code: "RSD", minor: 2)
   }
 }

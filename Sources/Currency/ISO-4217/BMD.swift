@@ -3,6 +3,6 @@
 extension Currency {
   /// Bermudian Dollar (BMD)
   public static var `bmd`: Self {
-    .init(code: "BMD")
+    .init(code: "BMD", minor: 2)
   }
 }

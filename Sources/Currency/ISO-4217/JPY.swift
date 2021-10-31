@@ -3,6 +3,6 @@
 extension Currency {
   /// Yen (JPY)
   public static var `jpy`: Self {
-    .init(code: "JPY")
+    .init(code: "JPY", minor: 0)
   }
 }

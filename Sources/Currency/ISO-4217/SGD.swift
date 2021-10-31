@@ -3,6 +3,6 @@
 extension Currency {
   /// Singapore Dollar (SGD)
   public static var `sgd`: Self {
-    .init(code: "SGD")
+    .init(code: "SGD", minor: 2)
   }
 }

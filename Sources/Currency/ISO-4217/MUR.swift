@@ -3,6 +3,6 @@
 extension Currency {
   /// Mauritius Rupee (MUR)
   public static var `mur`: Self {
-    .init(code: "MUR")
+    .init(code: "MUR", minor: 2)
   }
 }

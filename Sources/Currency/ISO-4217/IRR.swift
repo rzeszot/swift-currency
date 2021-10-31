@@ -3,6 +3,6 @@
 extension Currency {
   /// Iranian Rial (IRR)
   public static var `irr`: Self {
-    .init(code: "IRR")
+    .init(code: "IRR", minor: 2)
   }
 }

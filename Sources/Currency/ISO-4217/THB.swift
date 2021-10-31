@@ -3,6 +3,6 @@
 extension Currency {
   /// Baht (THB)
   public static var `thb`: Self {
-    .init(code: "THB")
+    .init(code: "THB", minor: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Lao Kip (LAK)
   public static var `lak`: Self {
-    .init(code: "LAK")
+    .init(code: "LAK", minor: 2)
   }
 }

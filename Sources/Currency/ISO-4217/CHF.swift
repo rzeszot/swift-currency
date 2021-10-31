@@ -3,6 +3,6 @@
 extension Currency {
   /// Swiss Franc (CHF)
   public static var `chf`: Self {
-    .init(code: "CHF")
+    .init(code: "CHF", minor: 2)
   }
 }

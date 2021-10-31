@@ -3,6 +3,6 @@
 extension Currency {
   /// Algerian Dinar (DZD)
   public static var `dzd`: Self {
-    .init(code: "DZD")
+    .init(code: "DZD", minor: 2)
   }
 }

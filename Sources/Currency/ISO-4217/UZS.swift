@@ -3,6 +3,6 @@
 extension Currency {
   /// Uzbekistan Sum (UZS)
   public static var `uzs`: Self {
-    .init(code: "UZS")
+    .init(code: "UZS", minor: 2)
   }
 }

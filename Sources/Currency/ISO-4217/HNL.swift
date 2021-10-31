@@ -3,6 +3,6 @@
 extension Currency {
   /// Lempira (HNL)
   public static var `hnl`: Self {
-    .init(code: "HNL")
+    .init(code: "HNL", minor: 2)
   }
 }

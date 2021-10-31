@@ -3,6 +3,6 @@
 extension Currency {
   /// Guarani (PYG)
   public static var `pyg`: Self {
-    .init(code: "PYG")
+    .init(code: "PYG", minor: 0)
   }
 }

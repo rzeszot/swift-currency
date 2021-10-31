@@ -3,6 +3,6 @@
 extension Currency {
   /// Sudanese Pound (SDG)
   public static var `sdg`: Self {
-    .init(code: "SDG")
+    .init(code: "SDG", minor: 2)
   }
 }

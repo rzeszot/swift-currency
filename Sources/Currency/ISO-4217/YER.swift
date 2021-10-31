@@ -3,6 +3,6 @@
 extension Currency {
   /// Yemeni Rial (YER)
   public static var `yer`: Self {
-    .init(code: "YER")
+    .init(code: "YER", minor: 2)
   }
 }

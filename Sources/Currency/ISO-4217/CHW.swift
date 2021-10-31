@@ -3,6 +3,6 @@
 extension Currency {
   /// WIR Franc (CHW)
   public static var `chw`: Self {
-    .init(code: "CHW")
+    .init(code: "CHW", minor: 2)
   }
 }

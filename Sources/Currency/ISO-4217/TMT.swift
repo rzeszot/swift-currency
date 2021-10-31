@@ -3,6 +3,6 @@
 extension Currency {
   /// Turkmenistan New Manat (TMT)
   public static var `tmt`: Self {
-    .init(code: "TMT")
+    .init(code: "TMT", minor: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// New Taiwan Dollar (TWD)
   public static var `twd`: Self {
-    .init(code: "TWD")
+    .init(code: "TWD", minor: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Bolívar Soberano (VED)
   public static var `ved`: Self {
-    .init(code: "VED")
+    .init(code: "VED", minor: 2)
   }
 }

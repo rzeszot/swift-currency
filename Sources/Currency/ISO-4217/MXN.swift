@@ -3,6 +3,6 @@
 extension Currency {
   /// Mexican Peso (MXN)
   public static var `mxn`: Self {
-    .init(code: "MXN")
+    .init(code: "MXN", minor: 2)
   }
 }

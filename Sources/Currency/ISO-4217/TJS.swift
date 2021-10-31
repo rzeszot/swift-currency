@@ -3,6 +3,6 @@
 extension Currency {
   /// Somoni (TJS)
   public static var `tjs`: Self {
-    .init(code: "TJS")
+    .init(code: "TJS", minor: 2)
   }
 }

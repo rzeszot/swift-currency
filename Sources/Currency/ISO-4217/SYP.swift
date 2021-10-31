@@ -3,6 +3,6 @@
 extension Currency {
   /// Syrian Pound (SYP)
   public static var `syp`: Self {
-    .init(code: "SYP")
+    .init(code: "SYP", minor: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Malagasy Ariary (MGA)
   public static var `mga`: Self {
-    .init(code: "MGA")
+    .init(code: "MGA", minor: 2)
   }
 }

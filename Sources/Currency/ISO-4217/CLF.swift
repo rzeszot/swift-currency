@@ -3,6 +3,6 @@
 extension Currency {
   /// Unidad de Fomento (CLF)
   public static var `clf`: Self {
-    .init(code: "CLF")
+    .init(code: "CLF", minor: 4)
   }
 }

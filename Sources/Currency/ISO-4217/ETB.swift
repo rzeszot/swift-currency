@@ -3,6 +3,6 @@
 extension Currency {
   /// Ethiopian Birr (ETB)
   public static var `etb`: Self {
-    .init(code: "ETB")
+    .init(code: "ETB", minor: 2)
   }
 }
