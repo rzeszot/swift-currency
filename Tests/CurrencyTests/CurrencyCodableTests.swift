@@ -1,19 +1,7 @@
-// swiftlint:disable identifier_name
-
 import XCTest
 import Currency
 
-final class CurrencyTests: XCTestCase {
-
-  // MARK: - ExpressibleByStringLiteral
-
-  func test_expressible_by_literal() {
-    let sut: Currency = "USD"
-
-    XCTAssertEqual(String(sut), "USD")
-  }
-
-  // MARK: - Codable
+final class CurrencyCodableTests: XCTestCase {
 
   func test_decodable() throws {
     let json = """
@@ -39,26 +27,6 @@ final class CurrencyTests: XCTestCase {
       """)
   }
 
-  // MARK: - Equatable
-
-  func test_equatable() {
-    let a = Currency(code: "EUR")
-    let b = Currency(code: "EUR")
-    let c = Currency(code: "USD")
-
-    XCTAssertEqual(a, b)
-    XCTAssertNotEqual(a, c)
-  }
-
-  // MARK: - String+Currency
-
-  func test_convertion_to_string() {
-    let euro = Currency(code: "EUR")
-    let sut = String(euro)
-
-    XCTAssertEqual(sut, "EUR")
-  }
-
   // MARK: - Helpers
 
   private func decode<T: Decodable>(_ string: String) throws -> T {
@@ -76,4 +44,5 @@ final class CurrencyTests: XCTestCase {
 
     return String(data: data, encoding: .utf8) ?? ""
   }
+
 }
