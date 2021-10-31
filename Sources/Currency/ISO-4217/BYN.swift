@@ -3,6 +3,6 @@
 extension Currency {
   /// Belarusian Ruble (BYN)
   public static var `byn`: Self {
-    .init(code: "BYN", minor: 2)
+    .init(code: "BYN", scale: 2)
   }
 }

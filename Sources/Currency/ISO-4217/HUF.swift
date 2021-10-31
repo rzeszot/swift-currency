@@ -3,6 +3,6 @@
 extension Currency {
   /// Forint (HUF)
   public static var `huf`: Self {
-    .init(code: "HUF", minor: 2)
+    .init(code: "HUF", scale: 2)
   }
 }

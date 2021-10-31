@@ -3,6 +3,6 @@
 extension Currency {
   /// Boliviano (BOB)
   public static var `bob`: Self {
-    .init(code: "BOB", minor: 2)
+    .init(code: "BOB", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Jamaican Dollar (JMD)
   public static var `jmd`: Self {
-    .init(code: "JMD", minor: 2)
+    .init(code: "JMD", scale: 2)
   }
 }

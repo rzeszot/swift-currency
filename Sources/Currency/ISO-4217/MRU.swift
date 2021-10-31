@@ -3,6 +3,6 @@
 extension Currency {
   /// Ouguiya (MRU)
   public static var `mru`: Self {
-    .init(code: "MRU", minor: 2)
+    .init(code: "MRU", scale: 2)
   }
 }

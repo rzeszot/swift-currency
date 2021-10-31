@@ -3,6 +3,6 @@
 extension Currency {
   /// Won (KRW)
   public static var `krw`: Self {
-    .init(code: "KRW", minor: 0)
+    .init(code: "KRW", scale: 0)
   }
 }

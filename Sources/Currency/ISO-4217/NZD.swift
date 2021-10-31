@@ -3,6 +3,6 @@
 extension Currency {
   /// New Zealand Dollar (NZD)
   public static var `nzd`: Self {
-    .init(code: "NZD", minor: 2)
+    .init(code: "NZD", scale: 2)
   }
 }

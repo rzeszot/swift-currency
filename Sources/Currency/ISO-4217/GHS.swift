@@ -3,6 +3,6 @@
 extension Currency {
   /// Ghana Cedi (GHS)
   public static var `ghs`: Self {
-    .init(code: "GHS", minor: 2)
+    .init(code: "GHS", scale: 2)
   }
 }

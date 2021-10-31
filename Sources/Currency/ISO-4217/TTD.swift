@@ -3,6 +3,6 @@
 extension Currency {
   /// Trinidad and Tobago Dollar (TTD)
   public static var `ttd`: Self {
-    .init(code: "TTD", minor: 2)
+    .init(code: "TTD", scale: 2)
   }
 }

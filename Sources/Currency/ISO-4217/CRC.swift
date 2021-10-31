@@ -3,6 +3,6 @@
 extension Currency {
   /// Costa Rican Colon (CRC)
   public static var `crc`: Self {
-    .init(code: "CRC", minor: 2)
+    .init(code: "CRC", scale: 2)
   }
 }

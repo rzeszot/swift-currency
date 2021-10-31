@@ -3,6 +3,6 @@
 extension Currency {
   /// Congolese Franc (CDF)
   public static var `cdf`: Self {
-    .init(code: "CDF", minor: 2)
+    .init(code: "CDF", scale: 2)
   }
 }

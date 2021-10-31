@@ -3,6 +3,6 @@
 extension Currency {
   /// Lek (ALL)
   public static var `all`: Self {
-    .init(code: "ALL", minor: 2)
+    .init(code: "ALL", scale: 2)
   }
 }

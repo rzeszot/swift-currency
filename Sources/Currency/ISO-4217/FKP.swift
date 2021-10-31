@@ -3,6 +3,6 @@
 extension Currency {
   /// Falkland Islands Pound (FKP)
   public static var `fkp`: Self {
-    .init(code: "FKP", minor: 2)
+    .init(code: "FKP", scale: 2)
   }
 }

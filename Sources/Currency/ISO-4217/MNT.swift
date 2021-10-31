@@ -3,6 +3,6 @@
 extension Currency {
   /// Tugrik (MNT)
   public static var `mnt`: Self {
-    .init(code: "MNT", minor: 2)
+    .init(code: "MNT", scale: 2)
   }
 }

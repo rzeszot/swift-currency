@@ -3,6 +3,6 @@
 extension Currency {
   /// Norwegian Krone (NOK)
   public static var `nok`: Self {
-    .init(code: "NOK", minor: 2)
+    .init(code: "NOK", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Sol (PEN)
   public static var `pen`: Self {
-    .init(code: "PEN", minor: 2)
+    .init(code: "PEN", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// US Dollar (USD)
   public static var `usd`: Self {
-    .init(code: "USD", minor: 2)
+    .init(code: "USD", scale: 2)
   }
 }

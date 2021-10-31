@@ -3,6 +3,6 @@
 extension Currency {
   /// Qatari Rial (QAR)
   public static var `qar`: Self {
-    .init(code: "QAR", minor: 2)
+    .init(code: "QAR", scale: 2)
   }
 }

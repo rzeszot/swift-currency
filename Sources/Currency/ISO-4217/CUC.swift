@@ -3,6 +3,6 @@
 extension Currency {
   /// Peso Convertible (CUC)
   public static var `cuc`: Self {
-    .init(code: "CUC", minor: 2)
+    .init(code: "CUC", scale: 2)
   }
 }

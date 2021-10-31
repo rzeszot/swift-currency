@@ -3,6 +3,6 @@
 extension Currency {
   /// Djibouti Franc (DJF)
   public static var `djf`: Self {
-    .init(code: "DJF", minor: 0)
+    .init(code: "DJF", scale: 0)
   }
 }

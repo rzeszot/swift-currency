@@ -3,6 +3,6 @@
 extension Currency {
   /// Philippine Peso (PHP)
   public static var `php`: Self {
-    .init(code: "PHP", minor: 2)
+    .init(code: "PHP", scale: 2)
   }
 }

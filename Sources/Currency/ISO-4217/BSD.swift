@@ -3,6 +3,6 @@
 extension Currency {
   /// Bahamian Dollar (BSD)
   public static var `bsd`: Self {
-    .init(code: "BSD", minor: 2)
+    .init(code: "BSD", scale: 2)
   }
 }

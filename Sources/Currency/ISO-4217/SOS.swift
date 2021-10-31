@@ -3,6 +3,6 @@
 extension Currency {
   /// Somali Shilling (SOS)
   public static var `sos`: Self {
-    .init(code: "SOS", minor: 2)
+    .init(code: "SOS", scale: 2)
   }
 }

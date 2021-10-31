@@ -3,6 +3,6 @@
 extension Currency {
   /// Cuban Peso (CUP)
   public static var `cup`: Self {
-    .init(code: "CUP", minor: 2)
+    .init(code: "CUP", scale: 2)
   }
 }

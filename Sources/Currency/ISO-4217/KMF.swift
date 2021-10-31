@@ -3,6 +3,6 @@
 extension Currency {
   /// Comorian Franc  (KMF)
   public static var `kmf`: Self {
-    .init(code: "KMF", minor: 0)
+    .init(code: "KMF", scale: 0)
   }
 }

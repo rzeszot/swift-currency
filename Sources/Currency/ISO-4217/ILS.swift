@@ -3,6 +3,6 @@
 extension Currency {
   /// New Israeli Sheqel (ILS)
   public static var `ils`: Self {
-    .init(code: "ILS", minor: 2)
+    .init(code: "ILS", scale: 2)
   }
 }

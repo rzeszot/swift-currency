@@ -3,6 +3,6 @@
 extension Currency {
   /// Kina (PGK)
   public static var `pgk`: Self {
-    .init(code: "PGK", minor: 2)
+    .init(code: "PGK", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Russian Ruble (RUB)
   public static var `rub`: Self {
-    .init(code: "RUB", minor: 2)
+    .init(code: "RUB", scale: 2)
   }
 }

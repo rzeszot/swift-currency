@@ -3,6 +3,6 @@
 extension Currency {
   /// Som (KGS)
   public static var `kgs`: Self {
-    .init(code: "KGS", minor: 2)
+    .init(code: "KGS", scale: 2)
   }
 }

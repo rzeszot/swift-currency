@@ -3,6 +3,6 @@
 extension Currency {
   /// Mexican Unidad de Inversion (UDI) (MXV)
   public static var `mxv`: Self {
-    .init(code: "MXV", minor: 2)
+    .init(code: "MXV", scale: 2)
   }
 }

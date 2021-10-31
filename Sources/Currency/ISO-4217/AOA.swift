@@ -3,6 +3,6 @@
 extension Currency {
   /// Kwanza (AOA)
   public static var `aoa`: Self {
-    .init(code: "AOA", minor: 2)
+    .init(code: "AOA", scale: 2)
   }
 }

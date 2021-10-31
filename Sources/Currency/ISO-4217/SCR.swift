@@ -3,6 +3,6 @@
 extension Currency {
   /// Seychelles Rupee (SCR)
   public static var `scr`: Self {
-    .init(code: "SCR", minor: 2)
+    .init(code: "SCR", scale: 2)
   }
 }

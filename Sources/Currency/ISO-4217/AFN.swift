@@ -3,6 +3,6 @@
 extension Currency {
   /// Afghani (AFN)
   public static var `afn`: Self {
-    .init(code: "AFN", minor: 2)
+    .init(code: "AFN", scale: 2)
   }
 }

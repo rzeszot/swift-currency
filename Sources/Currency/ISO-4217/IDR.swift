@@ -3,6 +3,6 @@
 extension Currency {
   /// Rupiah (IDR)
   public static var `idr`: Self {
-    .init(code: "IDR", minor: 2)
+    .init(code: "IDR", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Mvdol (BOV)
   public static var `bov`: Self {
-    .init(code: "BOV", minor: 2)
+    .init(code: "BOV", scale: 2)
   }
 }

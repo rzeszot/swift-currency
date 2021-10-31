@@ -3,6 +3,6 @@
 extension Currency {
   /// Sri Lanka Rupee (LKR)
   public static var `lkr`: Self {
-    .init(code: "LKR", minor: 2)
+    .init(code: "LKR", scale: 2)
   }
 }

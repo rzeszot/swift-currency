@@ -3,6 +3,6 @@
 extension Currency {
   /// Unidad de Valor Real (COU)
   public static var `cou`: Self {
-    .init(code: "COU", minor: 2)
+    .init(code: "COU", scale: 2)
   }
 }

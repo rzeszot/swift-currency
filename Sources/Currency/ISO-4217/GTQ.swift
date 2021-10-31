@@ -3,6 +3,6 @@
 extension Currency {
   /// Quetzal (GTQ)
   public static var `gtq`: Self {
-    .init(code: "GTQ", minor: 2)
+    .init(code: "GTQ", scale: 2)
   }
 }

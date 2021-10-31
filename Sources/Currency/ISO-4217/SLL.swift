@@ -3,6 +3,6 @@
 extension Currency {
   /// Leone (SLL)
   public static var `sll`: Self {
-    .init(code: "SLL", minor: 2)
+    .init(code: "SLL", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Hryvnia (UAH)
   public static var `uah`: Self {
-    .init(code: "UAH", minor: 2)
+    .init(code: "UAH", scale: 2)
   }
 }

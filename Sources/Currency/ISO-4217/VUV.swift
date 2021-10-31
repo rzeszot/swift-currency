@@ -3,6 +3,6 @@
 extension Currency {
   /// Vatu (VUV)
   public static var `vuv`: Self {
-    .init(code: "VUV", minor: 0)
+    .init(code: "VUV", scale: 0)
   }
 }

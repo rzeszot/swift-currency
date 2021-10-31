@@ -3,6 +3,6 @@
 extension Currency {
   /// Tunisian Dinar (TND)
   public static var `tnd`: Self {
-    .init(code: "TND", minor: 3)
+    .init(code: "TND", scale: 3)
   }
 }

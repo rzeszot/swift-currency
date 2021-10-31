@@ -3,6 +3,6 @@
 extension Currency {
   /// Rand (ZAR)
   public static var `zar`: Self {
-    .init(code: "ZAR", minor: 2)
+    .init(code: "ZAR", scale: 2)
   }
 }

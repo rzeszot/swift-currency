@@ -3,6 +3,6 @@
 extension Currency {
   /// Argentine Peso (ARS)
   public static var `ars`: Self {
-    .init(code: "ARS", minor: 2)
+    .init(code: "ARS", scale: 2)
   }
 }

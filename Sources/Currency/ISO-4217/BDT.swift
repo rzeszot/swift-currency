@@ -3,6 +3,6 @@
 extension Currency {
   /// Taka (BDT)
   public static var `bdt`: Self {
-    .init(code: "BDT", minor: 2)
+    .init(code: "BDT", scale: 2)
   }
 }

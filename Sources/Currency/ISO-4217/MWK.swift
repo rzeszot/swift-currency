@@ -3,6 +3,6 @@
 extension Currency {
   /// Malawi Kwacha (MWK)
   public static var `mwk`: Self {
-    .init(code: "MWK", minor: 2)
+    .init(code: "MWK", scale: 2)
   }
 }

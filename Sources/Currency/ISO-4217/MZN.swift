@@ -3,6 +3,6 @@
 extension Currency {
   /// Mozambique Metical (MZN)
   public static var `mzn`: Self {
-    .init(code: "MZN", minor: 2)
+    .init(code: "MZN", scale: 2)
   }
 }

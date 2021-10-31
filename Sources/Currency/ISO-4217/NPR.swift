@@ -3,6 +3,6 @@
 extension Currency {
   /// Nepalese Rupee (NPR)
   public static var `npr`: Self {
-    .init(code: "NPR", minor: 2)
+    .init(code: "NPR", scale: 2)
   }
 }

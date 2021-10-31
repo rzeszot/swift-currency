@@ -3,6 +3,6 @@
 extension Currency {
   /// Unidad Previsional (UYW)
   public static var `uyw`: Self {
-    .init(code: "UYW", minor: 4)
+    .init(code: "UYW", scale: 4)
   }
 }

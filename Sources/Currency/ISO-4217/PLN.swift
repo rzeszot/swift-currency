@@ -3,6 +3,6 @@
 extension Currency {
   /// Zloty (PLN)
   public static var `pln`: Self {
-    .init(code: "PLN", minor: 2)
+    .init(code: "PLN", scale: 2)
   }
 }

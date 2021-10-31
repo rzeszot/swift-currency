@@ -15,10 +15,10 @@ final class CurrencyCodableTests: XCTestCase {
     let sut: SomeObject = try decode(json)
 
     XCTAssertEqual(sut.currency.code, "BTC")
-    XCTAssertEqual(sut.currency.minor, nil)
+    XCTAssertEqual(sut.currency.scale, nil)
   }
 
-  func test_decodable_default_minor_unit() throws {
+  func test_decodable_default_scale() throws {
     let json = """
       {
         "currency": "BHD:2"
@@ -28,10 +28,10 @@ final class CurrencyCodableTests: XCTestCase {
     let sut: SomeObject = try decode(json)
 
     XCTAssertEqual(sut.currency.code, "BHD")
-    XCTAssertEqual(sut.currency.minor, 2)
+    XCTAssertEqual(sut.currency.scale, 2)
   }
 
-  func test_decodable_non_default_minor_unit() throws {
+  func test_decodable_non_default_scale() throws {
     let json = """
       {
         "currency": "BHD:3"
@@ -41,7 +41,7 @@ final class CurrencyCodableTests: XCTestCase {
     let sut: SomeObject = try decode(json)
 
     XCTAssertEqual(sut.currency.code, "BHD")
-    XCTAssertEqual(sut.currency.minor, 3)
+    XCTAssertEqual(sut.currency.scale, 3)
   }
 
   func test_decodable_invalid_format_1() throws {
@@ -76,7 +76,7 @@ final class CurrencyCodableTests: XCTestCase {
       """
 
     XCTAssertThrowsError(try decode(json) as SomeObject) { error in
-      XCTAssertEqual(error as? Currency.FormatError, Currency.FormatError.minor)
+      XCTAssertEqual(error as? Currency.FormatError, Currency.FormatError.scale)
     }
   }
 
@@ -94,8 +94,8 @@ final class CurrencyCodableTests: XCTestCase {
       """)
   }
 
-  func test_encodable_default_minor_unit() throws {
-    let object = SomeObject(currency: Currency(code: "PLN", minor: 2))
+  func test_encodable_default_scale() throws {
+    let object = SomeObject(currency: Currency(code: "PLN", scale: 2))
 
     let sut = try encode(object)
 
@@ -106,7 +106,7 @@ final class CurrencyCodableTests: XCTestCase {
       """)
   }
 
-  func test_encodable_non_default_minor_unit() throws {
+  func test_encodable_non_default_scale() throws {
     let object = SomeObject(currency: .bhd)
 
     let sut = try encode(object)

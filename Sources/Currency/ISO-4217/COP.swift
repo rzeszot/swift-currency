@@ -3,6 +3,6 @@
 extension Currency {
   /// Colombian Peso (COP)
   public static var `cop`: Self {
-    .init(code: "COP", minor: 2)
+    .init(code: "COP", scale: 2)
   }
 }

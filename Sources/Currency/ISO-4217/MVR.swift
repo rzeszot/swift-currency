@@ -3,6 +3,6 @@
 extension Currency {
   /// Rufiyaa (MVR)
   public static var `mvr`: Self {
-    .init(code: "MVR", minor: 2)
+    .init(code: "MVR", scale: 2)
   }
 }

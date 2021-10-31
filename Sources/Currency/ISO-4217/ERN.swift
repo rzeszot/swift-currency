@@ -3,6 +3,6 @@
 extension Currency {
   /// Nakfa (ERN)
   public static var `ern`: Self {
-    .init(code: "ERN", minor: 2)
+    .init(code: "ERN", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Dobra (STN)
   public static var `stn`: Self {
-    .init(code: "STN", minor: 2)
+    .init(code: "STN", scale: 2)
   }
 }

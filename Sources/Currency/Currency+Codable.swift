@@ -11,8 +11,8 @@ extension Currency: Codable {
     var container = encoder.singleValueContainer()
     var string = code
 
-    if let minor = minor, minor != 2 {
-      string += ":\(minor)"
+    if let scale = scale, scale != 2 {
+      string += ":\(scale)"
     }
 
     try container.encode(string)

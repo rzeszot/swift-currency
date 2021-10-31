@@ -3,6 +3,6 @@
 extension Currency {
   /// Moroccan Dirham (MAD)
   public static var `mad`: Self {
-    .init(code: "MAD", minor: 2)
+    .init(code: "MAD", scale: 2)
   }
 }

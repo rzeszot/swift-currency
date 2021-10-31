@@ -3,6 +3,6 @@
 extension Currency {
   /// Tenge (KZT)
   public static var `kzt`: Self {
-    .init(code: "KZT", minor: 2)
+    .init(code: "KZT", scale: 2)
   }
 }

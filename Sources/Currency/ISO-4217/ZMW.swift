@@ -3,6 +3,6 @@
 extension Currency {
   /// Zambian Kwacha (ZMW)
   public static var `zmw`: Self {
-    .init(code: "ZMW", minor: 2)
+    .init(code: "ZMW", scale: 2)
   }
 }

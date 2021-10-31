@@ -3,6 +3,6 @@
 extension Currency {
   /// Ngultrum (BTN)
   public static var `btn`: Self {
-    .init(code: "BTN", minor: 2)
+    .init(code: "BTN", scale: 2)
   }
 }

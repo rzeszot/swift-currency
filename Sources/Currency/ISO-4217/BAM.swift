@@ -3,6 +3,6 @@
 extension Currency {
   /// Convertible Mark (BAM)
   public static var `bam`: Self {
-    .init(code: "BAM", minor: 2)
+    .init(code: "BAM", scale: 2)
   }
 }

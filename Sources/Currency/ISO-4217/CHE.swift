@@ -3,6 +3,6 @@
 extension Currency {
   /// WIR Euro (CHE)
   public static var `che`: Self {
-    .init(code: "CHE", minor: 2)
+    .init(code: "CHE", scale: 2)
   }
 }

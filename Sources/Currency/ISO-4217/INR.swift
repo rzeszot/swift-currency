@@ -3,6 +3,6 @@
 extension Currency {
   /// Indian Rupee (INR)
   public static var `inr`: Self {
-    .init(code: "INR", minor: 2)
+    .init(code: "INR", scale: 2)
   }
 }

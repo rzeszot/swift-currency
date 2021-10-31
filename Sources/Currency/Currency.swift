@@ -2,15 +2,15 @@ public struct Currency {
 
   public enum FormatError: Error {
     case colon
-    case minor
+    case scale
   }
 
   public let code: String
-  public let minor: UInt?
+  public let scale: UInt?
 
-  public init(code: String, minor: UInt? = nil) {
+  public init(code: String, scale: UInt? = nil) {
     self.code = code.uppercased()
-    self.minor = minor
+    self.scale = scale
   }
 
   init(string: String) throws {
@@ -19,9 +19,9 @@ public struct Currency {
       guard parts.count >= 2 else { throw FormatError.colon }
 
       let code = String(parts[0])
-      let minor = try parse(minor: parts[1])
+      let scale = try parse(scale: parts[1])
 
-      self.init(code: code, minor: minor)
+      self.init(code: code, scale: scale)
     } else {
       self.init(code: string)
     }
@@ -29,8 +29,8 @@ public struct Currency {
 
 }
 
-private func parse(minor value: Substring) throws -> UInt? {
+private func parse(scale value: Substring) throws -> UInt? {
   let number = UInt(value)
-  guard number.map(String.init) == String(value) else { throw Currency.FormatError.minor }
+  guard number.map(String.init) == String(value) else { throw Currency.FormatError.scale }
   return number
 }

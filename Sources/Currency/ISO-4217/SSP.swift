@@ -3,6 +3,6 @@
 extension Currency {
   /// South Sudanese Pound (SSP)
   public static var `ssp`: Self {
-    .init(code: "SSP", minor: 2)
+    .init(code: "SSP", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Pound Sterling (GBP)
   public static var `gbp`: Self {
-    .init(code: "GBP", minor: 2)
+    .init(code: "GBP", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Gibraltar Pound (GIP)
   public static var `gip`: Self {
-    .init(code: "GIP", minor: 2)
+    .init(code: "GIP", scale: 2)
   }
 }

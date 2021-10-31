@@ -3,6 +3,6 @@
 extension Currency {
   /// Belize Dollar (BZD)
   public static var `bzd`: Self {
-    .init(code: "BZD", minor: 2)
+    .init(code: "BZD", scale: 2)
   }
 }

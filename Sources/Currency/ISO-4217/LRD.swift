@@ -3,6 +3,6 @@
 extension Currency {
   /// Liberian Dollar (LRD)
   public static var `lrd`: Self {
-    .init(code: "LRD", minor: 2)
+    .init(code: "LRD", scale: 2)
   }
 }

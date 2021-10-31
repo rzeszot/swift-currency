@@ -3,6 +3,6 @@
 extension Currency {
   /// Pakistan Rupee (PKR)
   public static var `pkr`: Self {
-    .init(code: "PKR", minor: 2)
+    .init(code: "PKR", scale: 2)
   }
 }

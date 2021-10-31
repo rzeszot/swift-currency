@@ -3,6 +3,6 @@
 extension Currency {
   /// Dalasi (GMD)
   public static var `gmd`: Self {
-    .init(code: "GMD", minor: 2)
+    .init(code: "GMD", scale: 2)
   }
 }

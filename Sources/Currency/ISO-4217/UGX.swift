@@ -3,6 +3,6 @@
 extension Currency {
   /// Uganda Shilling (UGX)
   public static var `ugx`: Self {
-    .init(code: "UGX", minor: 0)
+    .init(code: "UGX", scale: 0)
   }
 }

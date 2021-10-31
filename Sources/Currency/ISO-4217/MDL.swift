@@ -3,6 +3,6 @@
 extension Currency {
   /// Moldovan Leu (MDL)
   public static var `mdl`: Self {
-    .init(code: "MDL", minor: 2)
+    .init(code: "MDL", scale: 2)
   }
 }

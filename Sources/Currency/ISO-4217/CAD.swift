@@ -3,6 +3,6 @@
 extension Currency {
   /// Canadian Dollar (CAD)
   public static var `cad`: Self {
-    .init(code: "CAD", minor: 2)
+    .init(code: "CAD", scale: 2)
   }
 }

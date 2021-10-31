@@ -3,6 +3,6 @@
 extension Currency {
   /// Bolívar Soberano (VES)
   public static var `ves`: Self {
-    .init(code: "VES", minor: 2)
+    .init(code: "VES", scale: 2)
   }
 }

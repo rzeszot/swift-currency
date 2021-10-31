@@ -3,6 +3,6 @@
 extension Currency {
   /// Brazilian Real (BRL)
   public static var `brl`: Self {
-    .init(code: "BRL", minor: 2)
+    .init(code: "BRL", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Loti (LSL)
   public static var `lsl`: Self {
-    .init(code: "LSL", minor: 2)
+    .init(code: "LSL", scale: 2)
   }
 }

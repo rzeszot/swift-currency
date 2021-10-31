@@ -3,6 +3,6 @@
 extension Currency {
   /// Azerbaijan Manat (AZN)
   public static var `azn`: Self {
-    .init(code: "AZN", minor: 2)
+    .init(code: "AZN", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Kuwaiti Dinar (KWD)
   public static var `kwd`: Self {
-    .init(code: "KWD", minor: 3)
+    .init(code: "KWD", scale: 3)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Solomon Islands Dollar (SBD)
   public static var `sbd`: Self {
-    .init(code: "SBD", minor: 2)
+    .init(code: "SBD", scale: 2)
   }
 }

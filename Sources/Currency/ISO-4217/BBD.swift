@@ -3,6 +3,6 @@
 extension Currency {
   /// Barbados Dollar (BBD)
   public static var `bbd`: Self {
-    .init(code: "BBD", minor: 2)
+    .init(code: "BBD", scale: 2)
   }
 }

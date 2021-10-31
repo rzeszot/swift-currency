@@ -3,6 +3,6 @@
 extension Currency {
   /// Surinam Dollar (SRD)
   public static var `srd`: Self {
-    .init(code: "SRD", minor: 2)
+    .init(code: "SRD", scale: 2)
   }
 }

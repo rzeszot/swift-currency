@@ -3,6 +3,6 @@
 extension Currency {
   /// Fiji Dollar (FJD)
   public static var `fjd`: Self {
-    .init(code: "FJD", minor: 2)
+    .init(code: "FJD", scale: 2)
   }
 }

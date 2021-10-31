@@ -3,6 +3,6 @@
 extension Currency {
   /// Kenyan Shilling (KES)
   public static var `kes`: Self {
-    .init(code: "KES", minor: 2)
+    .init(code: "KES", scale: 2)
   }
 }

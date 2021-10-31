@@ -3,6 +3,6 @@
 extension Currency {
   /// Danish Krone (DKK)
   public static var `dkk`: Self {
-    .init(code: "DKK", minor: 2)
+    .init(code: "DKK", scale: 2)
   }
 }

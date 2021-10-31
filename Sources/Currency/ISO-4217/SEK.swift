@@ -3,6 +3,6 @@
 extension Currency {
   /// Swedish Krona (SEK)
   public static var `sek`: Self {
-    .init(code: "SEK", minor: 2)
+    .init(code: "SEK", scale: 2)
   }
 }

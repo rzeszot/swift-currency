@@ -3,6 +3,6 @@
 extension Currency {
   /// Pula (BWP)
   public static var `bwp`: Self {
-    .init(code: "BWP", minor: 2)
+    .init(code: "BWP", scale: 2)
   }
 }

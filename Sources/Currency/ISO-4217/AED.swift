@@ -3,6 +3,6 @@
 extension Currency {
   /// UAE Dirham (AED)
   public static var `aed`: Self {
-    .init(code: "AED", minor: 2)
+    .init(code: "AED", scale: 2)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Chilean Peso (CLP)
   public static var `clp`: Self {
-    .init(code: "CLP", minor: 0)
+    .init(code: "CLP", scale: 0)
   }
 }

@@ -3,6 +3,6 @@
 extension Currency {
   /// Bulgarian Lev (BGN)
   public static var `bgn`: Self {
-    .init(code: "BGN", minor: 2)
+    .init(code: "BGN", scale: 2)
   }
 }

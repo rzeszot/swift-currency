@@ -3,6 +3,6 @@
 extension Currency {
   /// Lari (GEL)
   public static var `gel`: Self {
-    .init(code: "GEL", minor: 2)
+    .init(code: "GEL", scale: 2)
   }
 }
