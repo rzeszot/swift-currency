@@ -1,18 +1,16 @@
-import XCTest
 import Currency
+import XCTest
 
 final class CurrencyTests: XCTestCase {
+    func test_init_downcase() {
+        let sut = Currency(code: "eur")
 
-  func test_init_downcase() {
-    let sut = Currency(code: "eur")
+        XCTAssertEqual(String(sut), "EUR")
+    }
 
-    XCTAssertEqual(String(sut), "EUR")
-  }
+    func test_init_upcase() {
+        let sut = Currency(code: "EUR")
 
-  func test_init_upcase() {
-    let sut = Currency(code: "EUR")
-
-    XCTAssertEqual(String(sut), "EUR")
-  }
-
+        XCTAssertEqual(String(sut), "EUR")
+    }
 }

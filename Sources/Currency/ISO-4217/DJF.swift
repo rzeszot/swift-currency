@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Djibouti Franc (DJF)
-  public static var `djf`: Self {
-    .init(code: "DJF", scale: 0)
-  }
+public extension Currency {
+    /// Djibouti Franc (DJF)
+    static var djf: Self {
+        .init(code: "DJF", scale: 0)
+    }
 }

@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Surinam Dollar (SRD)
-  public static var `srd`: Self {
-    .init(code: "SRD", scale: 2)
-  }
+public extension Currency {
+    /// Surinam Dollar (SRD)
+    static var srd: Self {
+        .init(code: "SRD", scale: 2)
+    }
 }

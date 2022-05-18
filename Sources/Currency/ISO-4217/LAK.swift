@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Lao Kip (LAK)
-  public static var `lak`: Self {
-    .init(code: "LAK", scale: 2)
-  }
+public extension Currency {
+    /// Lao Kip (LAK)
+    static var lak: Self {
+        .init(code: "LAK", scale: 2)
+    }
 }

@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Malagasy Ariary (MGA)
-  public static var `mga`: Self {
-    .init(code: "MGA", scale: 2)
-  }
+public extension Currency {
+    /// Malagasy Ariary (MGA)
+    static var mga: Self {
+        .init(code: "MGA", scale: 2)
+    }
 }

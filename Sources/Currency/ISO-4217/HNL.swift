@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Lempira (HNL)
-  public static var `hnl`: Self {
-    .init(code: "HNL", scale: 2)
-  }
+public extension Currency {
+    /// Lempira (HNL)
+    static var hnl: Self {
+        .init(code: "HNL", scale: 2)
+    }
 }

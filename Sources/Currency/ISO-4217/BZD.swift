@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Belize Dollar (BZD)
-  public static var `bzd`: Self {
-    .init(code: "BZD", scale: 2)
-  }
+public extension Currency {
+    /// Belize Dollar (BZD)
+    static var bzd: Self {
+        .init(code: "BZD", scale: 2)
+    }
 }

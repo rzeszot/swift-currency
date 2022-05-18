@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Algerian Dinar (DZD)
-  public static var `dzd`: Self {
-    .init(code: "DZD", scale: 2)
-  }
+public extension Currency {
+    /// Algerian Dinar (DZD)
+    static var dzd: Self {
+        .init(code: "DZD", scale: 2)
+    }
 }

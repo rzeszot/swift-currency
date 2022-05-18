@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Saint Helena Pound (SHP)
-  public static var `shp`: Self {
-    .init(code: "SHP", scale: 2)
-  }
+public extension Currency {
+    /// Saint Helena Pound (SHP)
+    static var shp: Self {
+        .init(code: "SHP", scale: 2)
+    }
 }

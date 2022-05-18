@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Belarusian Ruble (BYN)
-  public static var `byn`: Self {
-    .init(code: "BYN", scale: 2)
-  }
+public extension Currency {
+    /// Belarusian Ruble (BYN)
+    static var byn: Self {
+        .init(code: "BYN", scale: 2)
+    }
 }

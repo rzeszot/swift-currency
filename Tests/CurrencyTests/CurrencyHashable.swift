@@ -1,16 +1,14 @@
-import XCTest
 import Currency
+import XCTest
 
 final class CurrencyHashable: XCTestCase {
+    func test_hashable() {
+        var sut = Hasher()
+        Currency(code: "EUR").hash(into: &sut)
 
-  func test_hashable() {
-    var sut = Hasher()
-    Currency(code: "EUR").hash(into: &sut)
+        var result = Hasher()
+        "EUR".hash(into: &result)
 
-    var result = Hasher()
-    "EUR".hash(into: &result)
-
-    XCTAssertEqual(sut.finalize(), result.finalize())
-  }
-
+        XCTAssertEqual(sut.finalize(), result.finalize())
+    }
 }

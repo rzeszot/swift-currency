@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Syrian Pound (SYP)
-  public static var `syp`: Self {
-    .init(code: "SYP", scale: 2)
-  }
+public extension Currency {
+    /// Syrian Pound (SYP)
+    static var syp: Self {
+        .init(code: "SYP", scale: 2)
+    }
 }

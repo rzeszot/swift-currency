@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Lilangeni (SZL)
-  public static var `szl`: Self {
-    .init(code: "SZL", scale: 2)
-  }
+public extension Currency {
+    /// Lilangeni (SZL)
+    static var szl: Self {
+        .init(code: "SZL", scale: 2)
+    }
 }

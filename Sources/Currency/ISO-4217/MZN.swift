@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Mozambique Metical (MZN)
-  public static var `mzn`: Self {
-    .init(code: "MZN", scale: 2)
-  }
+public extension Currency {
+    /// Mozambique Metical (MZN)
+    static var mzn: Self {
+        .init(code: "MZN", scale: 2)
+    }
 }

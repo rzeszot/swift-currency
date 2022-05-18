@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Azerbaijan Manat (AZN)
-  public static var `azn`: Self {
-    .init(code: "AZN", scale: 2)
-  }
+public extension Currency {
+    /// Azerbaijan Manat (AZN)
+    static var azn: Self {
+        .init(code: "AZN", scale: 2)
+    }
 }

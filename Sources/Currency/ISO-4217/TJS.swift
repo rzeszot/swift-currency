@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Somoni (TJS)
-  public static var `tjs`: Self {
-    .init(code: "TJS", scale: 2)
-  }
+public extension Currency {
+    /// Somoni (TJS)
+    static var tjs: Self {
+        .init(code: "TJS", scale: 2)
+    }
 }

@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Iceland Krona (ISK)
-  public static var `isk`: Self {
-    .init(code: "ISK", scale: 0)
-  }
+public extension Currency {
+    /// Iceland Krona (ISK)
+    static var isk: Self {
+        .init(code: "ISK", scale: 0)
+    }
 }

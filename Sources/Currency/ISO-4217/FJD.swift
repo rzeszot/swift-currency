@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Fiji Dollar (FJD)
-  public static var `fjd`: Self {
-    .init(code: "FJD", scale: 2)
-  }
+public extension Currency {
+    /// Fiji Dollar (FJD)
+    static var fjd: Self {
+        .init(code: "FJD", scale: 2)
+    }
 }

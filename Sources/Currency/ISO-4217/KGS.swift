@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Som (KGS)
-  public static var `kgs`: Self {
-    .init(code: "KGS", scale: 2)
-  }
+public extension Currency {
+    /// Som (KGS)
+    static var kgs: Self {
+        .init(code: "KGS", scale: 2)
+    }
 }

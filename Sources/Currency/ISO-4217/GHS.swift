@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Ghana Cedi (GHS)
-  public static var `ghs`: Self {
-    .init(code: "GHS", scale: 2)
-  }
+public extension Currency {
+    /// Ghana Cedi (GHS)
+    static var ghs: Self {
+        .init(code: "GHS", scale: 2)
+    }
 }

@@ -1,7 +1,5 @@
-extension String {
-
-  public init(_ currency: Currency) {
-    self = currency.code
-  }
-
+public extension String {
+    init(_ currency: Currency) {
+        self = currency.code
+    }
 }

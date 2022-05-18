@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Philippine Peso (PHP)
-  public static var `php`: Self {
-    .init(code: "PHP", scale: 2)
-  }
+public extension Currency {
+    /// Philippine Peso (PHP)
+    static var php: Self {
+        .init(code: "PHP", scale: 2)
+    }
 }

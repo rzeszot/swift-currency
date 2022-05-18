@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Mexican Peso (MXN)
-  public static var `mxn`: Self {
-    .init(code: "MXN", scale: 2)
-  }
+public extension Currency {
+    /// Mexican Peso (MXN)
+    static var mxn: Self {
+        .init(code: "MXN", scale: 2)
+    }
 }

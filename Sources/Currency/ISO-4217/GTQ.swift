@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Quetzal (GTQ)
-  public static var `gtq`: Self {
-    .init(code: "GTQ", scale: 2)
-  }
+public extension Currency {
+    /// Quetzal (GTQ)
+    static var gtq: Self {
+        .init(code: "GTQ", scale: 2)
+    }
 }

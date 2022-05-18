@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Bolívar Soberano (VED)
-  public static var `ved`: Self {
-    .init(code: "VED", scale: 2)
-  }
+public extension Currency {
+    /// Bolívar Soberano (VED)
+    static var ved: Self {
+        .init(code: "VED", scale: 2)
+    }
 }

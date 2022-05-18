@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Tala (WST)
-  public static var `wst`: Self {
-    .init(code: "WST", scale: 2)
-  }
+public extension Currency {
+    /// Tala (WST)
+    static var wst: Self {
+        .init(code: "WST", scale: 2)
+    }
 }

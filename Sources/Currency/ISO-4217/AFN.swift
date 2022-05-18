@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Afghani (AFN)
-  public static var `afn`: Self {
-    .init(code: "AFN", scale: 2)
-  }
+public extension Currency {
+    /// Afghani (AFN)
+    static var afn: Self {
+        .init(code: "AFN", scale: 2)
+    }
 }

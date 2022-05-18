@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Leone (SLL)
-  public static var `sll`: Self {
-    .init(code: "SLL", scale: 2)
-  }
+public extension Currency {
+    /// Leone (SLL)
+    static var sll: Self {
+        .init(code: "SLL", scale: 2)
+    }
 }

@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Norwegian Krone (NOK)
-  public static var `nok`: Self {
-    .init(code: "NOK", scale: 2)
-  }
+public extension Currency {
+    /// Norwegian Krone (NOK)
+    static var nok: Self {
+        .init(code: "NOK", scale: 2)
+    }
 }

@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// North Korean Won (KPW)
-  public static var `kpw`: Self {
-    .init(code: "KPW", scale: 2)
-  }
+public extension Currency {
+    /// North Korean Won (KPW)
+    static var kpw: Self {
+        .init(code: "KPW", scale: 2)
+    }
 }

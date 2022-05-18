@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Pakistan Rupee (PKR)
-  public static var `pkr`: Self {
-    .init(code: "PKR", scale: 2)
-  }
+public extension Currency {
+    /// Pakistan Rupee (PKR)
+    static var pkr: Self {
+        .init(code: "PKR", scale: 2)
+    }
 }

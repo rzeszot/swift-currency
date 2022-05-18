@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Gibraltar Pound (GIP)
-  public static var `gip`: Self {
-    .init(code: "GIP", scale: 2)
-  }
+public extension Currency {
+    /// Gibraltar Pound (GIP)
+    static var gip: Self {
+        .init(code: "GIP", scale: 2)
+    }
 }

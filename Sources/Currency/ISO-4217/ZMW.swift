@@ -1,8 +1,8 @@
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// Zambian Kwacha (ZMW)
-  public static var `zmw`: Self {
-    .init(code: "ZMW", scale: 2)
-  }
+public extension Currency {
+    /// Zambian Kwacha (ZMW)
+    static var zmw: Self {
+        .init(code: "ZMW", scale: 2)
+    }
 }
