@@ -2,11 +2,10 @@
 require 'net/http'
 require 'nokogiri'
 require 'time'
-require 'byebug'
 
 #
 
-URL = 'https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/amendments/lists/list_one.xml'
+URL = 'https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list_one.xml'
 OUTPUT_PATH = 'Sources/Currency/ISO-4217'
 
 #
@@ -58,15 +57,25 @@ end
 #
 #
 
+WRAP_CODES = ['try']
+
+def normalize(code)
+  if WRAP_CODES.include?(code)
+    "\`#{code}\`"
+  else
+    code
+  end
+end
+
 currencies.each do |currency|
   content = <<EOS
 // This file was automatically generated and should not be edited.
 
-extension Currency {
-  /// #{currency.name} (#{currency.alphabetic_code})
-  public static var \`#{currency.alphabetic_code.downcase}\`: Self {
-    .init(code: "#{currency.alphabetic_code}", scale: #{currency.minor_unit})
-  }
+public extension Currency {
+    /// #{currency.name} (#{currency.alphabetic_code})
+    static var #{normalize(currency.alphabetic_code.downcase)}: Self {
+        .init(code: "#{currency.alphabetic_code}", scale: #{currency.minor_unit})
+    }
 }
 EOS
 
