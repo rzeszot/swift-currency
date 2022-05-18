@@ -31,6 +31,7 @@ currencies = xml.css('CcyNtry').map do |node|
 
   Currency.new(entity, name, alphabetic_code, numeric_code, minor_unit)
 end
+.uniq { |currency| currency.numeric_code }
 
 #
 #
@@ -82,3 +83,32 @@ EOS
   path = File.join(OUTPUT_PATH, "#{currency.alphabetic_code}.swift")
   File.write(path, content)
 end
+
+#
+#
+#
+
+content = ""
+content += <<EOS
+import Currency
+import XCTest
+
+final class ISO4127Tests: XCTestCase {
+EOS
+
+content += currencies.map do |currency|
+  <<EOS
+    func test_#{currency.alphabetic_code.downcase}() {
+        let sut = Currency.#{currency.alphabetic_code.downcase}
+
+        XCTAssertEqual(sut.code, "#{currency.alphabetic_code}")
+        XCTAssertEqual(sut.scale, #{currency.minor_unit})
+    }
+EOS
+end.join("\n")
+
+content += <<EOS
+}
+EOS
+
+File.write('Tests/CurrencyTests/ISO4127Tests.swift', content)
